@@ -65,4 +65,7 @@ set tabstop=4
 set softtabstop=0 expandtab smarttab
 set shiftwidth=4
 
+" html 2 space tabs
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
+
 colorscheme desert
